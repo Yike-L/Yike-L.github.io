@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pubs on Yike Li</title>
-    <link>http://example.org/pub/</link>
+    <link>https://yike-l.github.io/pub/</link>
     <description>Recent content in Pubs on Yike Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Sep 2023 01:45:27 -0400</lastBuildDate><atom:link href="http://example.org/pub/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 01:45:27 -0400</lastBuildDate><atom:link href="https://yike-l.github.io/pub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Detection of scene-irrelevant head movements via eye-head coordination information</title>
-      <link>http://example.org/pub/eyehead/</link>
+      <link>https://yike-l.github.io/pub/eyehead/</link>
       <pubDate>Fri, 01 Sep 2023 01:45:27 -0400</pubDate>
       
-      <guid>http://example.org/pub/eyehead/</guid>
+      <guid>https://yike-l.github.io/pub/eyehead/</guid>
       <description>Xiaoxiong Fan, Yun Cai, Yufei Yang, Tianxing Xu, Yike Li, Songhai Zhang, and Fanglue Zhang.
 Virtual Reality &amp;amp; Intelligent Hardware, 3(6):501–514, 2021.</description>
     </item>
     
     <item>
       <title>A VR-Oriented Efficient 3D Scene Synthesis System</title>
-      <link>http://example.org/pub/vr-orientedsystem/</link>
+      <link>https://yike-l.github.io/pub/vr-orientedsystem/</link>
       <pubDate>Thu, 31 Aug 2023 17:48:48 -0400</pubDate>
       
-      <guid>http://example.org/pub/vr-orientedsystem/</guid>
+      <guid>https://yike-l.github.io/pub/vr-orientedsystem/</guid>
       <description>Yike Li, Hou Tam, Jia-Hong Liu, Shao-Kui Zhang, Song-Hai Zhang
 IEEE International Conference on Virtual Reality and Visualization, 2022.</description>
     </item>
     
     <item>
       <title>Natural Hand Remapping: Velocity Adaptive Hand Manipulation for VR</title>
-      <link>http://example.org/pub/handremapping/</link>
+      <link>https://yike-l.github.io/pub/handremapping/</link>
       <pubDate>Thu, 31 Aug 2023 17:47:24 -0400</pubDate>
       
-      <guid>http://example.org/pub/handremapping/</guid>
+      <guid>https://yike-l.github.io/pub/handremapping/</guid>
       <description>Yike Li , Chen Wang , Ge Yu , Yu He , Stefanie Zollmann, and Song-Hai Zhang
 Poster Section of Computational Visual Media Conference, 2023. (suggested to Communications in Information and Systems)</description>
     </item>
     
     <item>
       <title>Automatic Generation of Commercial Scenes</title>
-      <link>http://example.org/pub/commercialscenes/</link>
+      <link>https://yike-l.github.io/pub/commercialscenes/</link>
       <pubDate>Thu, 31 Aug 2023 17:46:52 -0400</pubDate>
       
-      <guid>http://example.org/pub/commercialscenes/</guid>
+      <guid>https://yike-l.github.io/pub/commercialscenes/</guid>
       <description>Shao-Kui Zhang, Jia-Hong Liu, Yike Li, Tianyi Xiong, Ke-Xin Ren, Hongbo Fu, Song-Hai Zhang
 ACM International Conference on Multimedia, 2023. (In press)</description>
     </item>
     
     <item>
       <title>SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time</title>
-      <link>http://example.org/pub/scenedirector/</link>
+      <link>https://yike-l.github.io/pub/scenedirector/</link>
       <pubDate>Thu, 31 Aug 2023 17:45:49 -0400</pubDate>
       
-      <guid>http://example.org/pub/scenedirector/</guid>
+      <guid>https://yike-l.github.io/pub/scenedirector/</guid>
       <description>Shao-Kui Zhang, Hou Tam, Yike Li, Ke-Xin Ren, Hongbo Fu, Song-Hai Zhang
 IEEE Transactions on Visualization and Computer Graphics</description>
     </item>
