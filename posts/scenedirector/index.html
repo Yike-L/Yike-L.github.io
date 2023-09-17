@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time - Yike Li</title><meta name="Description" content=""><meta property="og:title" content="SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time" />
+<meta property="og:description" content="Abstract Intelligent tools for creating synthetic scenes have been developed in great progress in recent years. Existing techniques on interactive scene synthesis only incorporate a single object at every interaction, i.e., crafting a scene through a sequence of single-object insertions with user preferences. These techniques suggest objects by considering existent objects in the scene instead of fully picturing the eventual result, which is inherently difficult since the sets of objects to be inserted are seldom fixed during interactive processes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yike-l.github.io/posts/scenedirector/" /><meta property="article:section" content="Posts" />
+<meta property="article:published_time" content="2023-05-31T17:45:49-04:00" />
+<meta property="article:modified_time" content="2023-05-31T17:45:49-04:00" /><meta property="og:site_name" content="Yike Li" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time"/>
+<meta name="twitter:description" content="Abstract Intelligent tools for creating synthetic scenes have been developed in great progress in recent years. Existing techniques on interactive scene synthesis only incorporate a single object at every interaction, i.e., crafting a scene through a sequence of single-object insertions with user preferences. These techniques suggest objects by considering existent objects in the scene instead of fully picturing the eventual result, which is inherently difficult since the sets of objects to be inserted are seldom fixed during interactive processes."/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://yike-l.github.io/posts/scenedirector/" /><link rel="prev" href="https://yike-l.github.io/posts/handremapping/" /><link rel="next" href="https://yike-l.github.io/posts/commercialscenes/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/yike-l.github.io\/posts\/scenedirector\/"
+        },"genre": "Posts","keywords": "","wordcount":  342 ,
+        "url": "https:\/\/yike-l.github.io\/posts\/scenedirector\/","datePublished": "2023-05-31T17:45:49-04:00","dateModified": "2023-05-31T17:45:49-04:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Yike Li"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="normal" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Yike Li">Yike Li</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Publications </a><a class="menu-item" href="/"> About </a><a class="menu-item" href="/">  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Yike Li">Yike Li</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Publications</a><a class="menu-item" href="/" title="">About</a><a class="menu-item" href="/" title=""></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time</h1><h2 class="single-subtitle">
+                    Shao-Kui Zhang
+                    ,&nbsp;
+                    Hou Tam
+                    ,&nbsp;
+                    <u><strong>Yike Li</strong></u>
+                    ,&nbsp;
+                    Ke-Xin Ren
+                    ,&nbsp;
+                    Hongbo Fu
+                    ,&nbsp;
+                    Song-Hai Zhang
+                    </h2><h2 class="single-subtitle">IEEE Transactions on Visualization and Computer Graphics</h2><div class="content" id="content"><h3 id="abstract">Abstract</h3>
+<p>Intelligent tools for creating synthetic scenes have been developed in great progress in recent years. Existing techniques on
+interactive scene synthesis only incorporate a single object at every interaction, i.e., crafting a scene through a sequence of
+single-object insertions with user preferences. These techniques suggest objects by considering existent objects in the scene instead
+of fully picturing the eventual result, which is inherently difficult since the sets of objects to be inserted are seldom fixed during
+interactive processes. In this paper, we introduce SceneDirector, a novel interactive scene synthesis tool to help users quickly picture
+various potential synthesis results by simultaneously editing groups of objects. Specifically, groups of objects are rearranged in
+real-time with respect to a position of an object specified by a mouse cursor or gesture, i.e., a movement of a single object would
+trigger the rearrangement of the existing object group, the insertions of potential appropriate objects, and the removal of redundant
+objects. To achieve this, we first propose an idea of coherent group set which expresses various concepts of layout strategies.
+Subsequently, we present layout attributes, where users can simply adjust how objects are arranged by tuning the weights of the
+attributes. Thus, our method gives users intuitive control of both how to arrange groups of objects and where to place them. Through
+extensive experiments and two applications, we demonstrate the potentiality of our framework and how it enables effective and efficient
+interactions of editing groups of objects concurrently.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/SceneDirectorTeaser.jpg"
+        data-srcset="/SceneDirectorTeaser.jpg, /SceneDirectorTeaser.jpg 1.5x, /SceneDirectorTeaser.jpg 2x"
+        data-sizes="auto"
+        alt="/SceneDirectorTeaser.jpg"
+        title="SceneDirector" /></p>
+<p>Fig. 1: We present SceneDirector for interactively synthesizing 3D indoor scenes by simultaneously editing multiple objects
+based on cursor movements and clicks (Left). Given a cursor movement at any moment, our framework automatically
+inserts, removes, translates, and rotates a group of objects (in green boxes) plausibly into a new scene in real-time, w.r.t.
+the cursor’s current position (Middle). Mouse click would end an iteration, thus directly achieving a layout of a group of
+objects. After a few iterations, a plausible 3D indoor scene is synthesized while alternative results are available depending
+on user preferences (Right).</p>
+<h3 id="paper">Paper</h3>
+<p><a href="/SceneDirector-2-12.pdf" rel="">PDF</a></p>
+<h3 id="video">Video</h3>
+<div class="bilibili"><iframe src="//player.bilibili.com/player.html?bvid=BV11L411e72M&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>
+
+</div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Yike Li</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

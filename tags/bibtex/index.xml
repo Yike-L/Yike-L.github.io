@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Bibtex - Tag - Yike Li</title>
+        <link>https://yike-l.github.io/tags/bibtex/</link>
+        <description>Bibtex - Tag - Yike Li</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 01:45:27 -0400</lastBuildDate><atom:link href="https://yike-l.github.io/tags/bibtex/" rel="self" type="application/rss+xml" /><item>
+    <title>Detection of scene-irrelevant head movements via eye-head coordination information</title>
+    <link>https://yike-l.github.io/posts/eyehead/</link>
+    <pubDate>Fri, 01 Sep 2023 01:45:27 -0400</pubDate>
+    <author>Yike Li</author>
+    <guid>https://yike-l.github.io/posts/eyehead/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/eyeHead.jpg" referrerpolicy="no-referrer">
+            </div>Abstract Background Accurate motion tracking in head-mounted displays (HMDs) has been widely used in immersive VR interaction technologies. However, tracking the head motion of users at all times is not always desirable. During a session of HMD usage, users may make scene-irrelevant head rotations, such as adjusting the head position to avoid neck pain or responding to distractions from the physical world. To the best of our knowledge, this is the first study that addresses the problem of scene-irrelevant head movements.]]></description>
+</item>
+<item>
+    <title>SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time</title>
+    <link>https://yike-l.github.io/posts/scenedirector/</link>
+    <pubDate>Thu, 31 Aug 2023 17:45:49 -0400</pubDate>
+    <author>Yike Li</author>
+    <guid>https://yike-l.github.io/posts/scenedirector/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/SceneDirector.jpg" referrerpolicy="no-referrer">
+            </div>Abstract Intelligent tools for creating synthetic scenes have been developed in great progress in recent years. Existing techniques on interactive scene synthesis only incorporate a single object at every interaction, i.e., crafting a scene through a sequence of single-object insertions with user preferences. These techniques suggest objects by considering existent objects in the scene instead of fully picturing the eventual result, which is inherently difficult since the sets of objects to be inserted are seldom fixed during interactive processes.]]></description>
+</item>
+</channel>
+</rss>

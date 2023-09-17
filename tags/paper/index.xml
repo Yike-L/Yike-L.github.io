@@ -1,0 +1,57 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Paper - Tag - Yike Li</title>
+        <link>https://yike-l.github.io/tags/paper/</link>
+        <description>Paper - Tag - Yike Li</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 01:45:27 -0400</lastBuildDate><atom:link href="https://yike-l.github.io/tags/paper/" rel="self" type="application/rss+xml" /><item>
+    <title>Detection of scene-irrelevant head movements via eye-head coordination information</title>
+    <link>https://yike-l.github.io/posts/eyehead/</link>
+    <pubDate>Fri, 01 Sep 2023 01:45:27 -0400</pubDate>
+    <author>Yike Li</author>
+    <guid>https://yike-l.github.io/posts/eyehead/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/eyeHead.jpg" referrerpolicy="no-referrer">
+            </div>Abstract Background Accurate motion tracking in head-mounted displays (HMDs) has been widely used in immersive VR interaction technologies. However, tracking the head motion of users at all times is not always desirable. During a session of HMD usage, users may make scene-irrelevant head rotations, such as adjusting the head position to avoid neck pain or responding to distractions from the physical world. To the best of our knowledge, this is the first study that addresses the problem of scene-irrelevant head movements.]]></description>
+</item>
+<item>
+    <title>A VR-Oriented Efficient 3D Scene Synthesis System</title>
+    <link>https://yike-l.github.io/posts/vr-orientedsystem/</link>
+    <pubDate>Thu, 31 Aug 2023 17:48:48 -0400</pubDate>
+    <author>Yike Li</author>
+    <guid>https://yike-l.github.io/posts/vr-orientedsystem/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/VR-OrientedSystem.png" referrerpolicy="no-referrer">
+            </div>Abstract With the rapid development of virtual reality (VR), the demand for 3D scenes has been boosted dramatically. Massive algorithms of automatic arrangement for objects have been proposed to solve this problem. However, few of these techniques are applied in VR. To make the automatic 3D scene synthesizing more suitable for VR, we put forward a series of innovative methods, considering the interaction and presentation features in VR. Our methods, including automatic scene synthesis and intelligent scene editing, contribute to the efﬁciency and effectiveness of VR scene synthesis.]]></description>
+</item>
+<item>
+    <title>Natural Hand Remapping: Velocity Adaptive Hand Manipulation for VR</title>
+    <link>https://yike-l.github.io/posts/handremapping/</link>
+    <pubDate>Thu, 31 Aug 2023 17:47:24 -0400</pubDate>
+    <author>Yike Li</author>
+    <guid>https://yike-l.github.io/posts/handremapping/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/HandRemapping.jpg" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item>
+<item>
+    <title>Automatic Generation of Commercial Scenes</title>
+    <link>https://yike-l.github.io/posts/commercialscenes/</link>
+    <pubDate>Thu, 31 Aug 2023 17:46:52 -0400</pubDate>
+    <author>Shao-Kui Zhang, Jia-Hong Liu, **Yike Li**, Tianyi Xiong, Ke-Xin Ren, Hongbo Fu, Song-Hai Zhang</author>
+    <guid>https://yike-l.github.io/posts/commercialscenes/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/CommercialScenes.jpg" referrerpolicy="no-referrer">
+            </div>Abstract Commercial scenes such as markets and shops are everyday scenes for both virtual scenes and real-world interior designs. However, existing literature on interior scene synthesis mainly focuses on formulating and optimizing residential scenes such as bedrooms, living rooms, etc. Existing literature typically presents a set of relations among objects. It recognizes each furniture object as the smallest unit while optimizing a residential room. However, object relations become less critical in commercial scenes since shelves are often placed next to each other so that pre-calculated relations of objects are less needed.]]></description>
+</item>
+<item>
+    <title>SceneDirector: Interactive Scene Synthesis by Simultaneously Editing Object Groups in Real-Time</title>
+    <link>https://yike-l.github.io/posts/scenedirector/</link>
+    <pubDate>Thu, 31 Aug 2023 17:45:49 -0400</pubDate>
+    <author>Yike Li</author>
+    <guid>https://yike-l.github.io/posts/scenedirector/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/SceneDirector.jpg" referrerpolicy="no-referrer">
+            </div>Abstract Intelligent tools for creating synthetic scenes have been developed in great progress in recent years. Existing techniques on interactive scene synthesis only incorporate a single object at every interaction, i.e., crafting a scene through a sequence of single-object insertions with user preferences. These techniques suggest objects by considering existent objects in the scene instead of fully picturing the eventual result, which is inherently difficult since the sets of objects to be inserted are seldom fixed during interactive processes.]]></description>
+</item>
+</channel>
+</rss>
